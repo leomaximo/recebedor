@@ -1,0 +1,9 @@
+packages:
+  meu-pacote:
+    actions:
+      salvarImagem:
+        function: ./actions/salvarImagem.js
+        runtime: nodejs:default
+        web: true
+        annotations:
+          final: true
